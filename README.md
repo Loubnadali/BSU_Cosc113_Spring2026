@@ -1,118 +1,153 @@
-COSC 113 – Computer Science II
+README.md
 
-Final Group Project Requirements
+Course: COSC 113 – Computer Science II
 
-Project Proposal & Follow up : April 29 , 2026
+Proposal Due: April 29, 2026
 
-Final Project Due Date: May 6, 2025 
+Final Due: May 6, 2025
 
-Team Size: 2–4 students
+Team Size: 2–4 Students
 
-Project Goal
+ Team Members
 
-Create a fully functional application that demonstrates strong object-oriented programming skills, Java best practices, and effective teamwork through GitHub collaboration.
+Name
 
-1. Technology & Workflow Requirements
+GitHub Username
 
-Version Control:
+Role
 
-GitHub is required
+[Name 1]
 
-Follow GitHub Flow: feature branches, frequent commits, Pull Requests, and peer code review
+@username1
 
-Team Collaboration:
+[Role]
 
-Every member must actively contribute , commits and PR history will be graded
+[Name 2]
 
-2. Architecture Requirements
+@username2
 
-Apply all four OOP principles:
+[Role]
 
-Encapsulation
+[Name 3]
 
-Inheritance
+@username3
 
-Polymorphism
+[Role]
 
-Abstraction
+[Name 4]
 
- 3. Deliverables
+@username4
 
-3.1 Code Report & Documentation
+[Role]
 
-Explanation of your architecture & design pattern(s)
+ Project Description
 
-Clear contribution log linking to GitHub commits/PRs
+[Brief description of your project — what it does, who it's for, and what problem it solves.]
 
-3.2 Live Presentation
+ Features
 
-Demonstrate features, testing, workflow, and architecture decisions
+Feature 1
 
-3.3 Advanced Java Features
+Feature 2
 
-File I/O 
+Feature 3
 
-Exception handling (include at least one custom exception)
+Feature 4
 
- 4. Projects List :
+ Architecture & OOP Design
 
-4.1 Digital Library Manager
+This project applies all four OOP principles:
 
-A library system that:
+Encapsulation — [How you used it]
 
-Manages books/media
+Inheritance — [Class hierarchy example]
 
-Tracks members and loans
+Polymorphism — [How you used it]
 
-Supports check-out, returns, reservations
+Abstraction — [Abstract classes / interfaces used]
 
-This example demonstrates
+Design Pattern(s) Used: [e.g., Factory, Strategy, Observer]
 
-OOP principles (e.g., Book subclasses)
+ Advanced Java Features
 
-HashMap for efficient item lookup
+File I/O — [Brief description of how it's used]
 
-File-based persistence
+Exception Handling — Custom exception: [CustomExceptionName]
 
-GitHub collaboration with feature branches
+ Tech Stack
 
-4.2 Management Systems (Core OOP Focus)
+Java 17+
 
-Library Catalog System
+GitHub / GitHub Flow
 
-Employee Payroll Manager
+[Any libraries or tools]
 
-University Enrollment Tracker
+ How to Run
 
-Hospital Appointment System
+# Clone the repository
+git clone https://github.com/[your-org]/[repo-name].git
 
-4.3 E-Commerce / Reservation Systems (Composition Focus)
+# Navigate to the project directory
+cd [repo-name]
 
-Shopping Cart & Product Catalog
+# Compile
+javac -d out src/**/*.java
 
-Flight Booking System
+# Run
+java -cp out Main
 
-Online Food Delivery App
 
-Vehicle Rental Service
+ GitHub Workflow
 
-4.4 Advanced Concept Simulations
+We follow GitHub Flow:
 
-Banking System with Transactions
+Create a feature branch: git checkout -b feature/your-feature
 
-Smart Home Controller
+Commit frequently with clear messages
 
-Social Media Mini-Platform
+Open a Pull Request for peer review
 
-Online Test & Question Bank System
+Merge after approval
 
-5. Final Reminder
+ Project Structure
 
-Your project must clearly show:
+src/
+├── main/
+│   ├── Main.java
+│   ├── models/
+│   ├── services/
+│   └── exceptions/
+├── data/
 
-Strong Java programming skills
+└── README.md
 
-Team collaboration using Git & GitHub
 
-Clean OOP design and documentation
+ Contribution Log
 
+Member
+
+Key Contributions
+
+PR Links
+
+[Name 1]
+
+[Feature/module]
+
+[#PR]
+
+[Name 2]
+
+[Feature/module]
+
+[#PR]
+
+[Name 3]
+
+[Feature/module]
+
+[#PR]
+
+ License
+
+This project is submitted for academic purposes — COSC 113, Spring 2026.
